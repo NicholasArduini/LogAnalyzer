@@ -49,7 +49,7 @@ router.get('/storedFileCount', function(req, res) {
 
 
 router.get('/', function(req, res) {
-           res.render('index', {title: 'COMP 2406 Log Analysis & Visualization',
+           res.render('index', {title: 'Log Analysis & Visualization',
                       numFiles: 0,
                       numEntries: 0});
            });
